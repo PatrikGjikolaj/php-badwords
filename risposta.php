@@ -12,7 +12,7 @@
 <?php 
 $testo = $_GET["testo"];
 $ban = $_GET["ban"];
-$hide = "<spans>***</span>";
+$hide = "<span>***</span>";
 $numWords = strlen($testo);
 $testoban = str_ireplace($ban, $hide, $testo);
 ?>
